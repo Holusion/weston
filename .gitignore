@@ -1,0 +1,40 @@
+### c object files & build artifacts ###
+*.[oa]
+*.l[oa]
+*.lai
+*.so
+.deps/
+
+protocol/*.[hc]
+### tests ###
+*.test
+zuctest
+matrix-test
+### automake files ###
+.dirstamp
+stamp-h1
+libtool
+spring-tool
+Makefile
+config.h
+configure
+*.log
+*.status
+autom4te.cache
+build-aux/
+### doc and conf is rebuilt ###
+doc/
+*.ini
+### editor files ###
+*.swp
+*~
+### weston files ###
+*.weston
+weston-*
+weston
+weston.1
+weston.ini.5
+wcap-decode
+ivi-layout.ivi
+setbacklight
+
